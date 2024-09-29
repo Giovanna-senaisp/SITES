@@ -1,0 +1,61 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-color: #1D0F6E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header p{
+    color: white;
+    margin: 25px;
+}
+body h2{
+    font-size: 80px;
+    color: #1D0F6E;
+    text-align: center;
+}
+.inicio{
+    background-image: url(img/aviao.png);
+    height: 788px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.inicio h2{
+    color: white;
+    font-size: 96px;
+    text-align: center;
+}
+.fileira{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px;
+    border-color: black;
+    border-radius: 20px;
+    margin: 20px;
+}
+.bloco img{
+    width: 342px;
+    height: 513px;
+}
+.bloco h3{
+    font-size: 32px;
+}
+footer{
+    background-color: #1D0F6E;
+    color: white;
+    height: 224px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

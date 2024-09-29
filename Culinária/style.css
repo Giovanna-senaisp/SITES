@@ -18,7 +18,10 @@ header a{
     text-decoration: dashed;
     font-size: 42px;
 }
-
+.fundo{
+    width: 100%;
+    height: 642px;
+}
 body h2{
     font-size: 96px;
     color: #ECA457;
