@@ -18,3 +18,80 @@ header a{
     text-decoration: dashed;
     font-size: 42px;
 }
+
+body h2{
+    font-size: 96px;
+    color: #ECA457;
+    text-align: center;
+}
+.pc{
+    font-size: 46px;
+    text-align: center;
+}
+.blocos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fileira{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -180px;
+}
+.blocos img{
+    width: 140px;
+    height: 140px;
+}
+.bloco h4{
+    font-size: 48px;
+}
+.bloco p{
+    font-size: 34px;
+    color: #AFA7A7;
+    margin-top: -30px;
+}
+hr{
+    height: 4px;
+    background-color: #ECA457;
+}
+.pb{
+    font-size: 34px;
+    color: #AFA7A7;
+    margin-top: -50px;
+}
+.blog h3{
+    font-size: 48px;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.blogt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+.blog img{
+    width: 198px;
+    height: 198px;
+}
+footer{
+    background-color: #ECA457;
+    height: 268px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 193px;
+    height: 193px;
+}
